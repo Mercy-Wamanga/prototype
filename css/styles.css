@@ -1,0 +1,69 @@
+/* .sizing {
+	
+	margin-left: 0px;
+	margin-right: 100px;
+	height: 400px;
+	width: 1510px;
+	background-position: center;
+   
+    background-color: rgba(11, 145, 55, 0.7);
+    position:relative;
+} */
+.logo {
+	border: '1px solid black';
+}
+body {
+	background-image: url(../images/veg4.jpg);
+	background-repeat: no-repeat;
+	background-size: 1650px 1000px;
+	margin-top: 30px;
+	position: relati;
+}
+.header {
+	background-color: #fff;
+}
+
+.container {
+	color: #fff;
+	height: 400px;
+	width: 1400px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	background: #000;
+	opacity: 0.5;
+	position: absolute;
+	margin-left: 200px;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+h4 {
+	font-size: 40px;
+	text-align: center;
+}
+
+.container-1 {
+	height: 500px;
+	width: 13500px;
+	align-items: center;
+	margin-top: 10px;
+	background: #000;
+	opacity: 0.5;
+	position: absolute;
+	
+}
+.row {
+	height: 200px;
+	width: 800px;
+	margin-left: 300px;
+
+}
+.col-md-3 {
+	border: 1px solid green;
+}
+ul li{
+	font-weight:bolder;
+}
