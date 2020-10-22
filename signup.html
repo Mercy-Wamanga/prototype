@@ -10,7 +10,7 @@
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
-		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/style3.css" />
 
 		<title>market connect</title>
 	</head>
@@ -33,7 +33,7 @@
 							<a class="nav-link" href="more_info.html">Market</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Information</a>
+							<a class="nav-link" href="information.html">Information</a>
 						</li>
 					</ul>
 					&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -45,7 +45,7 @@
 							<a class="nav-link" href="more_info.html">Login</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Signup</a>
+							<a class="nav-link" href="signup.html">Signup</a>
 						</li>
 					</ul>
 				</div>
@@ -53,10 +53,69 @@
 		</div>
 		<br />
 		<br />
-		<div class="container">
-			<h1>welcome to market connect</h1>
-			<h4>where professionals find their target market</h4>
-		</div>
+
+		<form action="" style="border: 1px solid #ccc" id="form">
+			<h1>Sign Up</h1>
+			<div class="container">
+				<p>Please fill in this form to create an account.</p>
+				<hr />
+				<ul>
+					<li>
+						<label for="email"><b>Email:</b></label
+						>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input
+							type="text"
+							placeholder="Enter Email"
+							name="email"
+							required
+						/>
+					</li>
+					<li>
+						<label for="psw"><b>Password:</b></label
+						>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input
+							type="password"
+							placeholder="Enter Password"
+							name="psw"
+							required
+						/>
+					</li>
+					<li>
+						<label for="psw-repeat"><b>Repeat Password:</b></label>
+						<input
+							type="password"
+							placeholder="Repeat Password"
+							name="psw-repeat"
+							required
+						/>
+					</li>
+					<li>
+						<label>
+							<input
+								type="checkbox"
+								checked="checked"
+								name="remember"
+								style="margin-bottom: 15px"
+							/>
+							Remember me
+						</label>
+					</li>
+					<li>
+						<p>
+							By creating an account you agree to our
+							<a href="#" style="color: dodgerblue">Terms & Privacy</a>.
+						</p>
+					</li>
+					<li>
+						<div class="clearfix">
+							<button type="button" class="cancelbtn">Cancel</button>
+							<button type="submit" class="signupbtn">Sign Up</button>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</form>
+
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="js/jquery-3.3.1.slim.min.js"></script>
